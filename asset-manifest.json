@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.12955ccb.css",
-    "main.js": "/personal-website/static/js/main.018117f1.js",
-    "static/js/964.8ededbb1.chunk.js": "/personal-website/static/js/964.8ededbb1.chunk.js",
+    "main.js": "/personal-website/static/js/main.5156adf1.js",
+    "static/js/964.269736b5.chunk.js": "/personal-website/static/js/964.269736b5.chunk.js",
     "static/js/117.5d23261f.chunk.js": "/personal-website/static/js/117.5d23261f.chunk.js",
     "static/js/478.b9bcc64b.chunk.js": "/personal-website/static/js/478.b9bcc64b.chunk.js",
     "static/js/922.950c5cf1.chunk.js": "/personal-website/static/js/922.950c5cf1.chunk.js",
@@ -11,13 +11,15 @@
     "static/js/191.9b29b40b.chunk.js": "/personal-website/static/js/191.9b29b40b.chunk.js",
     "static/js/592.1a687d31.chunk.js": "/personal-website/static/js/592.1a687d31.chunk.js",
     "static/js/209.04592873.chunk.js": "/personal-website/static/js/209.04592873.chunk.js",
+    "static/js/625.9e9d9eb0.chunk.js": "/personal-website/static/js/625.9e9d9eb0.chunk.js",
     "static/js/614.0ade320b.chunk.js": "/personal-website/static/js/614.0ade320b.chunk.js",
     "static/js/773.d56afb2f.chunk.js": "/personal-website/static/js/773.d56afb2f.chunk.js",
+    "static/media/about.md": "/personal-website/static/media/about.97bb168122f632f21ae6.md",
     "static/media/credit-card-guide.md": "/personal-website/static/media/credit-card-guide.cae176c9ab02424f6c7e.md",
     "index.html": "/personal-website/index.html",
     "main.12955ccb.css.map": "/personal-website/static/css/main.12955ccb.css.map",
-    "main.018117f1.js.map": "/personal-website/static/js/main.018117f1.js.map",
-    "964.8ededbb1.chunk.js.map": "/personal-website/static/js/964.8ededbb1.chunk.js.map",
+    "main.5156adf1.js.map": "/personal-website/static/js/main.5156adf1.js.map",
+    "964.269736b5.chunk.js.map": "/personal-website/static/js/964.269736b5.chunk.js.map",
     "117.5d23261f.chunk.js.map": "/personal-website/static/js/117.5d23261f.chunk.js.map",
     "478.b9bcc64b.chunk.js.map": "/personal-website/static/js/478.b9bcc64b.chunk.js.map",
     "922.950c5cf1.chunk.js.map": "/personal-website/static/js/922.950c5cf1.chunk.js.map",
@@ -30,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.12955ccb.css",
-    "static/js/main.018117f1.js"
+    "static/js/main.5156adf1.js"
   ]
 }
