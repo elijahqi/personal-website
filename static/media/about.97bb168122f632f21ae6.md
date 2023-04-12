@@ -1,6 +1,6 @@
 # About Me
 
-I am a highly motivated and aspiring entrepreneur with a strong passion for history, economics, international relations, and the pursuit of becoming a global citizen. My diverse experience encompasses roles in technology services, research, education, and customer relations management across various industries. In addition to my professional interests, I am a credit card rewards enthusiast, always eager to learn more and share insights about credit card perks and benefits. If you're curious to know more about your credit card, don't hesitate to check out this resource: Credit Card Guide
+I am a highly motivated and aspiring entrepreneur with a strong passion for history, economics, international relations, and the pursuit of becoming a global citizen. My diverse experience encompasses roles in technology services, research, education, and customer relations management across various industries. In addition to my professional interests, I am a credit card rewards enthusiast, always eager to learn more and share insights about credit card perks and benefits. If you're curious to know more about your credit card, don't hesitate to check out this resource: [Credit Card Guide](https://elijahqi.github.io/personal-website/credit-card-guide)
 
 ## Experience
 
