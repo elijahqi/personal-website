@@ -8,7 +8,7 @@ const About = () => {
   const [markdown, setMarkdown] = useState('');
 
   useEffect(() => {
-    import('../data/credit-card-guide.md')
+    import('../data/about.md')
       .then((res) => {
         fetch(res.default)
           .then((r) => r.text())
