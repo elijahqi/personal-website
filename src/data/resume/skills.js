@@ -1,73 +1,23 @@
 const skills = [
   {
-    title: 'Javascript',
-    competency: 3,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    title: 'Java',
+    competency: 5,
+    category: ['Languages'],
   },
   {
-    title: 'React',
-    competency: 3,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Bash',
-    competency: 2,
-    category: ['Tools', 'Languages'],
-  },
-  {
-    title: 'PostgreSQL/SQLite3/SQL/Redshift',
-    competency: 2,
-    category: ['Web Development', 'Databases', 'Languages'],
-  },
-  {
-    title: 'Django',
-    competency: 2,
-    category: ['Web Development', 'Python'],
-  },
-  {
-    title: 'Flask',
-    competency: 3,
-    category: ['Web Development', 'Python'],
-  },
-  {
-    title: 'RestAPI',
-    competency: 3,
-    category: ['Web Development', 'Python'],
-  },
-  {
-    title: 'AWS',
-    competency: 2,
-    category: ['Tools', 'Web Development'],
-  },
-  {
-    title: 'Hadoop',
-    competency: 2,
-    category: ['Distributed System'],
-  },
-  {
-    title: 'Docker',
-    competency: 1,
-    category: ['Tools', 'Data Engineering'],
-  },
-  {
-    title: 'Numpy',
-    competency: 2,
-    category: ['Data Science', 'Data Engineering', 'Python', 'ML Engineering'],
-  },
-  {
-    title: 'Jupyter',
-    competency: 3,
-    category: ['Data Science', 'Python'],
-  },
-  {
-    title: 'HTML + SASS/SCSS/CSS',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
+    title: 'Go',
+    competency: 4,
+    category: ['Languages'],
   },
   {
     title: 'Python',
     competency: 4,
-    category: ['Languages', 'Python'],
+    category: ['Languages'],
+  },
+  {
+    title: 'JavaScript/TypeScript',
+    competency: 3,
+    category: ['Languages', 'Full Stack'],
   },
   {
     title: 'C++',
@@ -75,39 +25,129 @@ const skills = [
     category: ['Languages'],
   },
   {
-    title: 'Jinja',
-    competency: 2,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'MATLAB',
-    competency: 1,
-    category: ['Languages'],
-  },
-  {
-    title: 'R',
-    competency: 1,
-    category: ['Languages'],
-  },
-  {
-    title: 'Data Visualization',
-    competency: 2,
-    category: ['Data Science', 'Javascript'],
-  },
-  {
-    title: 'Pandas',
-    competency: 2,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
-  },
-  {
-    title: 'Matplotlib',
-    competency: 2,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
-  },
-  {
-    title: 'Scikit-Learn',
+    title: 'SQL',
     competency: 3,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
+    category: ['Languages', 'Growth & Data'],
+  },
+  {
+    title: 'React',
+    competency: 3,
+    category: ['Full Stack'],
+  },
+  {
+    title: 'Node.js',
+    competency: 3,
+    category: ['Full Stack'],
+  },
+  {
+    title: 'Spring Boot',
+    competency: 4,
+    category: ['Full Stack'],
+  },
+  {
+    title: 'REST APIs',
+    competency: 4,
+    category: ['Full Stack'],
+  },
+  {
+    title: 'SSE',
+    competency: 3,
+    category: ['Full Stack'],
+  },
+  {
+    title: 'HTML/CSS',
+    competency: 3,
+    category: ['Full Stack'],
+  },
+  {
+    title: 'Spark',
+    competency: 4,
+    category: ['Growth & Data'],
+  },
+  {
+    title: 'Hive',
+    competency: 3,
+    category: ['Growth & Data'],
+  },
+  {
+    title: 'ClickHouse',
+    competency: 3,
+    category: ['Growth & Data'],
+  },
+  {
+    title: 'Elasticsearch',
+    competency: 4,
+    category: ['Growth & Data'],
+  },
+  {
+    title: 'Funnel Optimization',
+    competency: 3,
+    category: ['Growth & Data'],
+  },
+  {
+    title: 'ETL Pipelines',
+    competency: 4,
+    category: ['Growth & Data'],
+  },
+  {
+    title: 'LLM Integration',
+    competency: 4,
+    category: ['AI/ML'],
+  },
+  {
+    title: 'ReAct Agents',
+    competency: 4,
+    category: ['AI/ML'],
+  },
+  {
+    title: 'RAG Pipelines',
+    competency: 3,
+    category: ['AI/ML'],
+  },
+  {
+    title: 'Eino Framework',
+    competency: 3,
+    category: ['AI/ML'],
+  },
+  {
+    title: 'Prompt Engineering',
+    competency: 4,
+    category: ['AI/ML'],
+  },
+  {
+    title: 'AWS',
+    competency: 3,
+    category: ['Infrastructure'],
+  },
+  {
+    title: 'Docker',
+    competency: 4,
+    category: ['Infrastructure'],
+  },
+  {
+    title: 'Kubernetes',
+    competency: 3,
+    category: ['Infrastructure'],
+  },
+  {
+    title: 'RocketMQ',
+    competency: 4,
+    category: ['Infrastructure'],
+  },
+  {
+    title: 'Kafka',
+    competency: 4,
+    category: ['Infrastructure'],
+  },
+  {
+    title: 'Thrift RPC',
+    competency: 3,
+    category: ['Infrastructure'],
+  },
+  {
+    title: 'CI/CD',
+    competency: 3,
+    category: ['Infrastructure'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
@@ -120,11 +160,6 @@ const colors = [
   '#515dd4',
   '#e47272',
   '#cc7b94',
-  '#3896e2',
-  '#c3423f',
-  '#d75858',
-  '#747fff',
-  '#64cb7b',
 ];
 
 const categories = [

@@ -34,7 +34,7 @@ const data = [
   {
     key: 'location',
     label: 'Current city',
-    value: 'Ann Arbor, MI',
+    value: 'San Jose, CA',
   },
 ];
 

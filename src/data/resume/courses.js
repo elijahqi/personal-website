@@ -19,29 +19,6 @@ const courses = [
       { title: 'Applied Regression Analysis', number: 'STATS 413' },
     ],
   },
-  {
-    title: 'Fudan University',
-    courses: [
-      { title: 'China&apos;s Modern Economy' },
-      { title: 'International Trade and Investment' },
-    ],
-  },
-  {
-    title: 'The Hong Kong Polytechnic University',
-    courses: [
-      { title: 'Business Finance' },
-      { title: 'Financial Accounting' },
-      { title: 'Business Analytics' },
-      { title: 'Management & Organization' },
-      { title: 'Business Information Systems' },
-      { title: 'Managerial Accounting' },
-      { title: 'Principle of Marketing' },
-      { title: 'Principles of Operations Management' },
-      { title: 'Applied Linear Models for Finance Analytics' },
-      { title: 'Probability and Distributions for Risk Management' },
-      { title: 'Mathematics for Engineers' },
-    ],
-  },
 ];
 
 export default courses;

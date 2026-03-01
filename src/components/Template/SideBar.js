@@ -12,19 +12,24 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Elijah (Yijiashun)&apos;Qi</h2>
-        <p><a href="mailto:elijahqi@umich.edu">elijahqi@umich.edu</a></p>
+        <h2>Elijah (Yijiashun) Qi</h2>
+        <p><a href="mailto:qiyijiashun@gmail.com">qiyijiashun@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Elijah Qi, currently pursuing a Bachelor&apos;s degree in Computer Science and Data Science at the <strong>University of Michigan</strong>. I&apos;m passionate about programming and problem-solving, so that I enjoy doing <a href="https://leetcode.com/elijahqi/" target="_blank" rel="noreferrer">LeetCode</a> challenges for fun!
+      <p>
+        Hi, I&apos;m Elijah Qi, a Software Engineer
+        at <strong>TikTok (ByteDance)</strong> working
+        on the Growth &amp; CRM Platform.
       </p>
       <p>
-        My interests include traveling around the world and experiencing different cultures.
-        I am particularly interested in full-stack development and am currently seeking a
-        full-time job starting in <strong>Fall 2024</strong>.
+        I hold a Master&apos;s
+        from <strong>UIUC</strong> and
+        a Bachelor&apos;s (Highest Distinction)
+        from <strong>UMich</strong>,
+        both in Computer Science.
       </p>
       <ul className="actions">
         <li>
